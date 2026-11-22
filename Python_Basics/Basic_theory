@@ -1,0 +1,74 @@
+# Python Fundamentals – Interview Questions & Answers
+
+### 1. What is Python?
+Python is a high-level, interpreted, general-purpose programming language known for its simple syntax and readability.
+
+### 2. Why is Python popular?
+Python is popular because it is easy to learn, supports multiple programming paradigms and provides powerful libraries for Data Analytics, AI and automation.
+
+### 3. What are the features of Python?
+- Easy to learn.
+- Interpreted language.
+- Dynamically typed.
+- Object-oriented.
+- Open-source.
+- Large library support.
+
+### 4. Is Python compiled or interpreted?
+Python is generally called an interpreted language. Its implementation typically compiles source code into bytecode, which is executed by the Python Virtual Machine.
+
+### 5. What are variables in Python?
+Variables are names used to store or refer to data. Python does not require explicit variable type declarations.
+
+### 6. What are Python data types?
+Python provides data types such as:
+- int
+- float
+- string
+- boolean
+- list
+- tuple
+- set
+- dictionary
+
+### 7. What is dynamic typing?
+Dynamic typing means we don't need to declare a variable's data type explicitly. Its type is determined at runtime.
+
+### 8. What is type casting?
+Type casting means converting one data type into another using functions like `int()`, `float()` and `str()`.
+
+### 9. What is a Module in Python?
+A module is a Python file containing reusable functions, variables or classes that can be imported into another program.
+
+### 10. What is a Package in Python?
+A package is a way to organize related Python modules into directories.
+
+### 11. What is PIP?
+PIP is Python's package installer, used to install and manage third-party libraries.
+
+### 12. What is the difference between Module and Package?
+A module is a single Python file, whereas a package organizes multiple related modules.
+
+### 13. What is the difference between `import` and `from import`?
+`import` imports a complete module, whereas `from import` allows us to import specific functions or objects from a module.
+
+### 14. What is an indentation in Python?
+Indentation means spaces at the beginning of a line. Python uses indentation to define blocks of code instead of curly braces.
+
+### 15. What is a comment in Python?
+Comments are notes written in code that are ignored during execution. Single-line comments start with `#`.
+
+### 16. What is the difference between `input()` and `print()`?
+`input()` takes information from the user, whereas `print()` displays information on the screen.
+
+### 17. What is the difference between List and Tuple?
+A list is mutable, meaning its elements can be changed. A tuple is immutable, meaning its elements cannot be changed after creation.
+
+### 18. What is a Dictionary?
+A dictionary is a collection that stores data in key-value pairs.
+
+### 19. What is a Set?
+A set is an unordered collection of unique elements. It does not allow duplicate values.
+
+### 20. What is a Function?
+A function is a reusable block of code designed to perform a particular task. In Python, we define functions using the `def` keyword.
