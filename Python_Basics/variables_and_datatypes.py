@@ -15,6 +15,7 @@ print("Hello!! \nHemlata Kumawat, in 1-Day of \"Python Data Analytics Course\"")
 
 # Variables are used to store data in memory
 # Variable name should not start with number and special character
+# We cannot use special character in variable name except underscore(_)
 a = 1 #integer
 b = True #boolean
 c = "Hemu" #String
@@ -26,7 +27,7 @@ print(a, b, c, d, "\n")
 # Text data: str
 # Boolean data: True or False
 # Sequenced data: list, tuple, range
-# Mapped Data: dict
+# Mapped Data: dictionary
 print("\nData Types")
 print("Type of a:", type(a)) # <class 'int'>
 print("Type of b:", type(b)) # <class 'bool'>
@@ -46,6 +47,8 @@ print("\n")
 
 # Dictionary:- dictionary is a collection which is unordered, changeable and indexed. No duplicate members. Separated by comma and enclosed in curly brackets.
 dict1 = {"name": "Hemu",
-          "\nage": 20, 
-          "\ncity": "Delhi"}
+          "age": 20, 
+          "city": "Delhi"}
 print("dict1:",dict1)
+
+#In python all things are object and every object has a unique id, type and value.
