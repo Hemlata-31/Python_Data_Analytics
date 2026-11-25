@@ -1,0 +1,18 @@
+# Program to input 2 number and perform arithmatic operations
+
+print("\n", "PROGRAM 1")
+input1 = int(input("Enter first number: "))
+input2 = int(input("Enter second number: "))
+
+print("Addition of two number is:", input1 + input2)
+print("Subtraction of two number is:", input1 - input2)
+print("Multiplication of two number is:", input1 * input2)
+print("Division of two number is:", input1 / input2)
+
+# WAP to input side of square & print its area and perimeter
+print("\n", "PROGRAM 2")
+side = int(input("Enter the side of square: "))
+area = side * side
+perimeter = 4 * side
+print("Area of square is:", area)
+print("Perimeter of square is:", perimeter)

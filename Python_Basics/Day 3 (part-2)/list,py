@@ -1,0 +1,47 @@
+# List is a collection which is ordered and changeable(mutable). 
+# Allows duplicate members.
+# Denote a list by using square brackets [].
+
+list_marks = [90, 80.5, 70, 60.4, 50, ["Karan", "Hemlata"]]
+print("List of marks:", list_marks)
+print(type(list_marks)) # Type of list_marks is list
+print("Length of list_marks:", len(list_marks)) 
+print(list_marks[2])
+list_marks[3] = 75 # Changing the value of list_marks at index 3
+print("List of marks after changing value at index 3:", list_marks)
+print("\n")
+
+# List SLicing is used to access a range of elements from list, list[starting_idx:ending_idx] and starting include while ending exclude in output
+print("Accessing first three elements of list_marks:", list_marks[0:3])
+print("Accessing elements from second to fourth of list_marks:", list_marks[1:4])
+print("Accessing first three elements of list_marks:", list_marks[:3])
+print("Accessing elements from second to last of list_marks:", list_marks[1:])
+print("Accessing last three elements of list_marks:", list_marks[-3:])
+print("\n")
+
+#List Functions or methods
+list = [23,45, 54, 60.4, 3, 12, 22]
+list.append(40) # Adding 40 at the end of list
+print("List of marks after appending 40:", list)
+
+list.insert(2, 85) # Adding 85 at index 2 of list
+print("List of marks after inserting 85 at index 2:", list)
+
+list.remove(60.4) # Removing 60.4 from list
+print("List of marks after removing 60.4:", list)
+
+list.pop(3) # Removing element at index 3 from list
+print("List of marks after popping element at index 3:", list)
+
+list.sort() # Sorting the list in ascending order
+print("List of marks after sorting in ascending order:", list)
+
+list.sort(reverse=True) # Sorting the list in descending order
+print("List of marks after sorting in descending order:", list)
+
+list.reverse() # Reversing the list
+print("List of marks after reversing:", list) 
+
+list.clear() # Clearing the list
+print("List of marks after clearing:", list)
+

@@ -1,0 +1,12 @@
+print(" WAP TO INPUT USER'S FIRST NAME AND PRINT ITS LENGTH")
+print("PROGRAM 1")
+
+first_name = input("Enter your first name: ")
+print("Length of your first name is:", len(first_name))
+
+
+print("\n", " WAP TO FIND THE OCCURENCE OF '$' IN THE GIVEN STRING")
+print("PROGRAM 2")
+
+string = input("Enter a string: ")
+print("Occurrence of '$' in the given string is:", string.count("$"))
