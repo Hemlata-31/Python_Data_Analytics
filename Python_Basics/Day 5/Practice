@@ -1,0 +1,36 @@
+# Given an list of subjects name and assume one class is required for 1 subject . 
+# how many classrooms are needed by all students
+
+print("PROGRAM 1")
+
+set = {"python", "java", "C++", "python", "javascript", "java", "python", "C++", "C"}
+print("number of classrooms needed:-", len(set))
+print("\n")
+
+# WAP to store two values in one key
+
+print("PROGRAM 2")
+
+dict = {
+    "cat" : "a small animal",
+    "table" : ["a piece of furniture", "list of facts and figures"]
+}
+print(dict)
+
+# Add marks in empty dictionary one by one
+
+print("\n")
+print("PROGRAM 3")
+
+marks = {}
+
+x = int(input("enter maths: "))
+marks.update({'maths' : x})
+
+x = int(input("enter phy: "))
+marks.update({'phy' : x})
+
+x = int(input("enter chem: "))
+marks.update({'chem' : x})
+
+print(marks)
