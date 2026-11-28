@@ -1,0 +1,34 @@
+print("PROBLEM 1 TO PRINT THE ELEMENTS OF THE FOLLWING LIST USING A LOOP")
+
+list = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+for num in list:
+    print(num)
+
+
+
+print("\nPROGRAM 2 TO SEARCH FOR A NUMBER X IN THIS TUPLE USING LOOP")
+
+tuple = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+x = 25
+
+idx = 0
+for nums in tuple:
+    if(nums == x):
+        print("Element found at index:-", idx)
+    idx += 1
+
+print("\nPROGRAM 3 TO PRINT MULTIPLICATION TABLE OF NUMBER N")
+
+n = 5
+for i in range(1,10,1):
+    print(n * i)
+
+
+print("\nPROGRAM TO FIND THE FACTORIAL OF N NUMBERS")
+
+n = 5
+factorial = 1
+for i in range(1, n + 1):
+    factorial *= i
+print(factorial)

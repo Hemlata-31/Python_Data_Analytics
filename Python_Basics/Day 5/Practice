@@ -17,7 +17,7 @@ dict = {
 }
 print(dict)
 
-# Add marks in empty dictionary one by one
+# Add subject annd their marks in empty dictionary one by one and take input from user
 
 print("\n")
 print("PROGRAM 3")
